@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML_DIZ_INFO>
+  <MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+    <MASTER_PAD_EDITOR>Hand-written</MASTER_PAD_EDITOR>
+    <MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://pad.asp-software.org</MASTER_PAD_INFO>
+  </MASTER_PAD_VERSION_INFO>
+  <Company_Info>
+    <Company_Name>Sakib (simplefysakib)</Company_Name>
+    <Address_1></Address_1><Address_2></Address_2><City_Town></City_Town><State_Province></State_Province><Zip_Postal_Code></Zip_Postal_Code>
+    <Country>India</Country>
+    <Company_WebSite_URL>https://simplefysakib.github.io/FastShare---Fast-File-Transfer/</Company_WebSite_URL>
+    <Contact_Info>
+      <Author_First_Name>Sakib</Author_First_Name><Author_Last_Name></Author_Last_Name><Author_Email>sakib@mail.tab.bot</Author_Email>
+      <Contact_First_Name>Sakib</Contact_First_Name><Contact_Last_Name></Contact_Last_Name><Contact_Email>sakib@mail.tab.bot</Contact_Email>
+    </Contact_Info>
+    <Support_Info>
+      <Sales_Email>sakib@mail.tab.bot</Sales_Email><Support_Email>sakib@mail.tab.bot</Support_Email><General_Email>sakib@mail.tab.bot</General_Email>
+      <Sales_Phone></Sales_Phone><Support_Phone></Support_Phone><General_Phone></General_Phone><Fax_Phone></Fax_Phone>
+    </Support_Info>
+  </Company_Info>
+  <Program_Info>
+    <Program_Name>FastShare</Program_Name>
+    <Program_Version>2.1</Program_Version>
+    <Program_Release_Month>11</Program_Release_Month>
+    <Program_Release_Day>03</Program_Release_Day>
+    <Program_Release_Year>2026</Program_Release_Year>
+    <Program_Cost_Dollars>0</Program_Cost_Dollars>
+    <Program_Cost_Other_Code></Program_Cost_Other_Code>
+    <Program_Cost_Other></Program_Cost_Other>
+    <Program_Type>Freeware</Program_Type>
+    <Program_Release_Status>Major Update</Program_Release_Status>
+    <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+    <Program_OS_Support>Win7 x32,Win7 x64,Win8,Win10 x32,Win10 x64,Windows 11,Android</Program_OS_Support>
+    <Program_Language>English</Program_Language>
+    <Program_Change_Info>5 GHz direct link chosen for both phones (switches to 2.4 GHz at once if one phone can't do 5 GHz); direct link even when both phones are on the same Wi-Fi router; no 'connect?' pop-up on Android 10+; lower CPU use while sending; safer resume; real band shown; bug fixes.</Program_Change_Info>
+    <Program_Specific_Category>Utilities</Program_Specific_Category>
+    <Program_Category_Class>Network &amp; Internet::File Sharing/Peer to Peer</Program_Category_Class>
+    <Program_System_Requirements>Windows 7 SP1, 8.1, 10, 11 (64-bit or 32-bit); same Wi-Fi network as the phone. Android app: Android 7.0+</Program_System_Requirements>
+    <File_Info>
+      <File_Size_Bytes>19070744</File_Size_Bytes>
+      <File_Size_K>18623</File_Size_K>
+      <File_Size_MB>18.2</File_Size_MB>
+    </File_Info>
+    <Expire_Info>
+      <Has_Expire_Info>N</Has_Expire_Info><Expire_Count></Expire_Count><Expire_Based_On>Days</Expire_Based_On><Expire_Other_Info></Expire_Other_Info><Expire_Month></Expire_Month><Expire_Day></Expire_Day><Expire_Year></Expire_Year>
+    </Expire_Info>
+  </Program_Info>
+  <Program_Descriptions>
+    <English>
+      <Keywords>file transfer, file sharing, send files, phone to pc, wifi direct, offline, no internet, android, windows, shareit alternative</Keywords>
+      <Char_Desc_45>Free fast file transfer for phones and PCs</Char_Desc_45>
+      <Char_Desc_80>Free fast file transfer between Android and Windows. No internet, no account.</Char_Desc_80>
+      <Char_Desc_250>FastShare sends photos, videos, apps, music and whole folders between Android phones and Windows PCs over the local network. Phone to PC both ways (auto-discovery or QR), or to any laptop through its browser. No internet, no account, free.</Char_Desc_250>
+      <Char_Desc_450>FastShare is a free file transfer app for Windows and Android. The Windows app finds phones on the same Wi-Fi automatically, or pairs with a QR code, and sends files both ways. A laptop without the app can use browser mode. Resume after interruption, files over 4 GB, whole folders, and real live speed. No internet, no account, no ads in the Windows app.</Char_Desc_450>
+      <Char_Desc_2000>FastShare is a free file transfer app for Android and Windows.
+
+• Phone to phone over Wi-Fi Direct – the phones connect directly, no router and no internet. When both phones support 5 GHz, FastShare opens a 5 GHz link automatically; otherwise it uses 2.4 GHz.
+• Send to PC, both ways – the free Windows app finds phones on the same Wi-Fi automatically, or pair with a QR code.
+• Browser mode – a laptop without the app (Windows, Mac, Linux, Chromebook) opens an address shown on the phone in any browser to download or upload files.
+• Share from any app – pick FastShare in Android's share menu.
+• Resume – a cut transfer continues where it stopped.
+• Big files (over 4 GB) and whole folders.
+• Real live speed with the Wi-Fi band shown (5 GHz / 2.4 GHz) – no fake numbers.
+• Light, clean design. No account, no sign-up.
+
+Honest speed: phones with 2.4 GHz-only Wi-Fi reach about 5–12 MB/s; two 5 GHz (Wi-Fi 5) phones about 20–40 MB/s; two Wi-Fi 6 phones close together 40+ MB/s.
+
+Privacy: files go directly from one device to the other over the local network and are never uploaded to a server. The Android app is ad-supported (Unity Ads); the Windows app has no ads.
+
+Android 7.0+ · Windows 7 SP1 / 8.1 / 10 / 11 (64-bit, 32-bit, portable).</Char_Desc_2000>
+    </English>
+  </Program_Descriptions>
+  <Web_Info>
+    <Application_URLs>
+      <Application_Info_URL>https://simplefysakib.github.io/FastShare---Fast-File-Transfer/</Application_Info_URL>
+      <Application_Order_URL></Application_Order_URL>
+      <Application_Screenshot_URL>https://simplefysakib.github.io/FastShare---Fast-File-Transfer/assets/screens/windows_home.jpg</Application_Screenshot_URL>
+      <Application_Icon_URL>https://simplefysakib.github.io/FastShare---Fast-File-Transfer/assets/icon.png</Application_Icon_URL>
+      <Application_XML_File_URL>https://simplefysakib.github.io/FastShare---Fast-File-Transfer/pad/fastshare.xml</Application_XML_File_URL>
+    </Application_URLs>
+    <Download_URLs>
+      <Primary_Download_URL>https://github.com/simplefysakib/FastShare---Fast-File-Transfer/releases/latest/download/FastShare_Windows_Setup.exe</Primary_Download_URL>
+      <Secondary_Download_URL>https://github.com/simplefysakib/FastShare---Fast-File-Transfer/releases/latest/download/FastShare_Windows_32bit_Setup.exe</Secondary_Download_URL>
+      <Additional_Download_URL_1>https://github.com/simplefysakib/FastShare---Fast-File-Transfer/releases/latest/download/FastShare_Windows_Portable.zip</Additional_Download_URL_1>
+      <Additional_Download_URL_2>https://github.com/simplefysakib/FastShare---Fast-File-Transfer/releases/latest/download/FastShare.apk</Additional_Download_URL_2>
+    </Download_URLs>
+  </Web_Info>
+  <Permissions>
+    <Distribution_Permissions>FastShare is freeware. Download sites may list it and link to the official download URLs above, or mirror the unmodified installer files. Do not bundle or repackage.</Distribution_Permissions>
+    <EULA>FastShare is free to use. It is provided "as is", without warranty of any kind. Not open source. Files are sent directly between your devices over the local network and are not uploaded to any server.</EULA>
+  </Permissions>
+</XML_DIZ_INFO>
