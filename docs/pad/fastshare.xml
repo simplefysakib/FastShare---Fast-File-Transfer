@@ -21,7 +21,7 @@
   </Company_Info>
   <Program_Info>
     <Program_Name>FastShare</Program_Name>
-    <Program_Version>2.1</Program_Version>
+    <Program_Version>2.2</Program_Version>
     <Program_Release_Month>11</Program_Release_Month>
     <Program_Release_Day>03</Program_Release_Day>
     <Program_Release_Year>2026</Program_Release_Year>
@@ -29,17 +29,17 @@
     <Program_Cost_Other_Code></Program_Cost_Other_Code>
     <Program_Cost_Other></Program_Cost_Other>
     <Program_Type>Freeware</Program_Type>
-    <Program_Release_Status>Major Update</Program_Release_Status>
+    <Program_Release_Status>Minor Update</Program_Release_Status>
     <Program_Install_Support>Install and Uninstall</Program_Install_Support>
     <Program_OS_Support>Win7 x32,Win7 x64,Win8,Win10 x32,Win10 x64,Windows 11,Android</Program_OS_Support>
     <Program_Language>English</Program_Language>
-    <Program_Change_Info>5 GHz direct link chosen for both phones (switches to 2.4 GHz at once if one phone can't do 5 GHz); direct link even when both phones are on the same Wi-Fi router; no 'connect?' pop-up on Android 10+; lower CPU use while sending; safer resume; real band shown; bug fixes.</Program_Change_Info>
+    <Program_Change_Info>About 10x faster for thousands of small files (loopback test); re-sending after a dropped connection sends only the missing files; Android 7/8 big-batch crash fixed; long Hindi/emoji names and names with ':' fixed; browser mode Download all (zip), Try again and a Stop that really stops; works with 2.1.</Program_Change_Info>
     <Program_Specific_Category>Utilities</Program_Specific_Category>
     <Program_Category_Class>Network &amp; Internet::File Sharing/Peer to Peer</Program_Category_Class>
     <Program_System_Requirements>Windows 7 SP1, 8.1, 10, 11 (64-bit or 32-bit); same Wi-Fi network as the phone. Android app: Android 7.0+</Program_System_Requirements>
     <File_Info>
-      <File_Size_Bytes>19070744</File_Size_Bytes>
-      <File_Size_K>18623</File_Size_K>
+      <File_Size_Bytes>19079738</File_Size_Bytes>
+      <File_Size_K>18633</File_Size_K>
       <File_Size_MB>18.2</File_Size_MB>
     </File_Info>
     <Expire_Info>
