@@ -12,24 +12,32 @@ jobs:
       - name: fetch and check FastShare.apk
         run: |
           set -euo pipefail
-          curl -sSfL -o 'FastShare.apk' 'https://tmpfiles.org/dl/wgAEJhwBm9g9/fastshare.apk'
+          page=$(curl -sSfL 'https://tmpfiles.org/dl/wgAEJhwBm9g9/fastshare.apk')
+          link=$(printf '%s' "$page" | grep -o 'https://tmpfiles.org/dl/[^"]*' | head -1)
+          curl -sSfL -o 'FastShare.apk' "$link"
           echo '1d22f433b309e0d97f3bf91421acb0f53dee4721ea19080922a294464cc59349  FastShare.apk' | sha256sum -c -
           curl -sSf -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/octet-stream" --data-binary @'FastShare.apk' "https://uploads.github.com/repos/simplefysakib/FastShare---Fast-File-Transfer/releases/434466418/assets?name=FastShare.apk" | head -c 300; echo
       - name: fetch and check FastShare_Windows_Setup.exe
         run: |
           set -euo pipefail
-          curl -sSfL -o 'FastShare_Windows_Setup.exe' 'https://tmpfiles.org/dl/wYAZJMwbmKK5/fastshare_windows_setup.exe'
+          page=$(curl -sSfL 'https://tmpfiles.org/dl/wYAZJMwbmKK5/fastshare_windows_setup.exe')
+          link=$(printf '%s' "$page" | grep -o 'https://tmpfiles.org/dl/[^"]*' | head -1)
+          curl -sSfL -o 'FastShare_Windows_Setup.exe' "$link"
           echo 'a397daa0080883f91642a17be8a81e76b155ba524731980d44eadc08970fcb9f  FastShare_Windows_Setup.exe' | sha256sum -c -
           curl -sSf -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/octet-stream" --data-binary @'FastShare_Windows_Setup.exe' "https://uploads.github.com/repos/simplefysakib/FastShare---Fast-File-Transfer/releases/434466418/assets?name=FastShare_Windows_Setup.exe" | head -c 300; echo
       - name: fetch and check FastShare_Windows_32bit_Setup.exe
         run: |
           set -euo pipefail
-          curl -sSfL -o 'FastShare_Windows_32bit_Setup.exe' 'https://tmpfiles.org/dl/wMAfJBwCmccf/fastshare_windows_32bit_setup.exe'
+          page=$(curl -sSfL 'https://tmpfiles.org/dl/wMAfJBwCmccf/fastshare_windows_32bit_setup.exe')
+          link=$(printf '%s' "$page" | grep -o 'https://tmpfiles.org/dl/[^"]*' | head -1)
+          curl -sSfL -o 'FastShare_Windows_32bit_Setup.exe' "$link"
           echo '6a6d904d5877899f99566985cf9f126df57db7a1baf366ffdd2db7e3ad0f2e55  FastShare_Windows_32bit_Setup.exe' | sha256sum -c -
           curl -sSf -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/octet-stream" --data-binary @'FastShare_Windows_32bit_Setup.exe' "https://uploads.github.com/repos/simplefysakib/FastShare---Fast-File-Transfer/releases/434466418/assets?name=FastShare_Windows_32bit_Setup.exe" | head -c 300; echo
       - name: fetch and check FastShare_Windows_Portable.zip
         run: |
           set -euo pipefail
-          curl -sSfL -o 'FastShare_Windows_Portable.zip' 'https://tmpfiles.org/dl/w6ALJgwBmtnw/fastshare_windows_portable.zip'
+          page=$(curl -sSfL 'https://tmpfiles.org/dl/w6ALJgwBmtnw/fastshare_windows_portable.zip')
+          link=$(printf '%s' "$page" | grep -o 'https://tmpfiles.org/dl/[^"]*' | head -1)
+          curl -sSfL -o 'FastShare_Windows_Portable.zip' "$link"
           echo '32f4e24c3e0cf9f81377344cb80b6b4ce97910ce521d8b2d66b122f1600fb59c  FastShare_Windows_Portable.zip' | sha256sum -c -
           curl -sSf -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/octet-stream" --data-binary @'FastShare_Windows_Portable.zip' "https://uploads.github.com/repos/simplefysakib/FastShare---Fast-File-Transfer/releases/434466418/assets?name=FastShare_Windows_Portable.zip" | head -c 300; echo
