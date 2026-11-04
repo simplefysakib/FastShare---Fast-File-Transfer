@@ -6,6 +6,8 @@ permissions:
 jobs:
   upload:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: fetch and check FastShare.apk
         run: |
