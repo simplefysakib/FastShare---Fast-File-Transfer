@@ -1,0 +1,33 @@
+name: upload-fs26
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch, check and upload release files
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          curl -fsSL --retry 5 -o FastShare.apk 'https://tmpfiles.org/dl/1793989418.b16a95b6525802ee/wUAqJnNkE07E/up_fastshare.apk'
+          curl -fsSL --retry 5 -o FastShare_Windows_Setup.exe 'https://tmpfiles.org/dl/1793989420.ecd025d2483b94c9/wAAEJ0NkEYjg/up_windows_setup.exe'
+          curl -fsSL --retry 5 -o FastShare_Windows_32bit_Setup.exe 'https://tmpfiles.org/dl/1793989424.d17cf1bb3a245b37/wlAqJWNHEP3s/up_windows_32bit_setup.exe'
+          curl -fsSL --retry 5 -o FastShare_Windows_Portable.zip 'https://tmpfiles.org/dl/1793989428.d66f17a32e053eb1/wSArJBNmErYq/up_windows_portable.zip'
+          : > sums
+          echo "24108b7c349d42f4044aa6b9a6e38d6f538c85b9a91925a8bc358aff0e0a1e10  FastShare.apk" >> sums
+          echo "a397daa0080883f91642a17be8a81e76b155ba524731980d44eadc08970fcb9f  FastShare_Windows_Setup.exe" >> sums
+          echo "6a6d904d5877899f99566985cf9f126df57db7a1baf366ffdd2db7e3ad0f2e55  FastShare_Windows_32bit_Setup.exe" >> sums
+          echo "32f4e24c3e0cf9f81377344cb80b6b4ce97910ce521d8b2d66b122f1600fb59c  FastShare_Windows_Portable.zip" >> sums
+          sha256sum -c sums
+          up() {
+            curl -fsS -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: $2" \
+              --data-binary @"$1" "https://uploads.github.com/repos/${{ github.repository }}/releases/436838989/assets?name=$1" > /dev/null
+            echo "uploaded $1"
+          }
+          up FastShare.apk application/vnd.android.package-archive
+          up FastShare_Windows_Setup.exe application/vnd.microsoft.portable-executable
+          up FastShare_Windows_32bit_Setup.exe application/vnd.microsoft.portable-executable
+          up FastShare_Windows_Portable.zip application/zip
