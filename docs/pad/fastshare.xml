@@ -21,7 +21,7 @@
   </Company_Info>
   <Program_Info>
     <Program_Name>FastShare</Program_Name>
-    <Program_Version>2.4</Program_Version>
+    <Program_Version>2.6</Program_Version>
     <Program_Release_Month>11</Program_Release_Month>
     <Program_Release_Day>04</Program_Release_Day>
     <Program_Release_Year>2026</Program_Release_Year>
@@ -55,16 +55,16 @@
       <Char_Desc_450>FastShare is a free file transfer app for Windows and Android. The Windows app finds phones on the same Wi-Fi automatically, or pairs with a QR code, and sends files both ways. A laptop without the app can use browser mode. Resume after interruption, files over 4 GB, whole folders, and real live speed. No internet, no account, no ads in the Windows app.</Char_Desc_450>
       <Char_Desc_2000>FastShare is a free file transfer app for Android and Windows.
 
-• Phone to phone over Wi-Fi Direct – the phones connect directly, no router and no internet. When both phones support 5 GHz, FastShare opens a 5 GHz link automatically; otherwise it uses 2.4 GHz.
+• Phone to phone over Wi-Fi Direct – the phones connect directly, no router and no internet. When both phones support 5 GHz, FastShare opens a 5 GHz link automatically; otherwise it uses 2.6 GHz.
 • Send to PC, both ways – the free Windows app finds phones on the same Wi-Fi automatically, or pair with a QR code.
 • Browser mode – a laptop without the app (Windows, Mac, Linux, Chromebook) opens an address shown on the phone in any browser to download or upload files.
 • Share from any app – pick FastShare in Android's share menu.
 • Resume – a cut transfer continues where it stopped.
 • Big files (over 4 GB) and whole folders.
-• Real live speed with the Wi-Fi band shown (5 GHz / 2.4 GHz) – no fake numbers.
+• Real live speed with the Wi-Fi band shown (5 GHz / 2.6 GHz) – no fake numbers.
 • Light, clean design. No account, no sign-up.
 
-Honest speed: phones with 2.4 GHz-only Wi-Fi reach about 5–12 MB/s; two 5 GHz (Wi-Fi 5) phones about 20–40 MB/s; two Wi-Fi 6 phones close together 40+ MB/s.
+Honest speed: phones with 2.6 GHz-only Wi-Fi reach about 5–12 MB/s; two 5 GHz (Wi-Fi 5) phones about 20–40 MB/s; two Wi-Fi 6 phones close together 40+ MB/s.
 
 Privacy: files go directly from one device to the other over the local network and are never uploaded to a server. The Android app is ad-supported (Unity Ads); the Windows app has no ads.
 
